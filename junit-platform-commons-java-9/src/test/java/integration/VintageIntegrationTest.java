@@ -17,7 +17,7 @@ import org.junit.Test;
 /**
  * @since 4.12
  */
-public class PlainJUnit4Test {
+public class VintageIntegrationTest {
 
 	@Test
 	public void successfulTest() {

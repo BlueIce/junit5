@@ -50,7 +50,7 @@ task generateIntegrationTestsJar(type: Jar, dependsOn: compileTestJava) {
 
 // Copy runtime dependencies to a single directory.
 task generateDependenciesDirectory(type: Copy) {
-	into buildDir.toPath().resolve('deps').toString()
+	into "$buildDir/deps"
 	from configurations.testRuntimeClasspath
 }
 
